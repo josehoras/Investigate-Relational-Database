@@ -6,6 +6,7 @@ This is the first project of the Udacity "Programming for Data Science with R" N
 
 In this project we use [Sakila DVD Rental database](https://www.postgresqltutorial.com/postgresql-sample-database/). The Sakila Database holds fictional information about a company that rents movie DVDs. This relational database contains 15 tables, as shown in the ER diagram below.
 
+[!Im](dvd-rental-sample-database-diagram.png)
 
 The following questions where explored:
 
@@ -29,4 +30,3 @@ FROM rev_per_week
 WHERE DATE_PART('year', date) = 2005
 ```
 
-# Investigate-a-Relational-Database
